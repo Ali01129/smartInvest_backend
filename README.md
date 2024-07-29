@@ -36,6 +36,14 @@ pm2 flush (Clear logs)
 
 # To make sure app starts when reboot
 pm2 startup ubuntu
+
+# or i used forever
+npm i forever
+
+#to start server like i used to run "npm run dev"
+forever start -c "npm run dev" .
+#this is start the server
+
 ```
 
 ## 6. Setup Firewall
