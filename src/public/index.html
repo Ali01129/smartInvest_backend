@@ -1,196 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144732897-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-144732897-1');
-</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartInvest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- please replace assets/img/favicon.ico with your own site icon -->
-	<link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
-	<link rel="stylesheet" href="assets/files/bootstrap.min.css">
-  <script src="assets/files/jquery.min.js"></script>
-  <script src="assets/files/bootstrap.min.js"></script>
-    <title>Smart Invest</title>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
-    <!-- Icon -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
-    <!-- Slicknav -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
-    <!-- Nivo Lightbox -->
-    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
-    <!-- Animate -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    <!-- Main Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-
-  </head>
-  <style>
-  .inlogo {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    
-	height: 10%;
-    width: 5%;
-}
-.gmlogo {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    cursor:pointer;
-	height: 10%;
-    width: 6%;
-}
-.fblogo {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    
-	height: 10%;
-    width: 5%;
-}
-
-#images{
-    text-align:center;
-}
-
-  </style>
-  <body>
-
-    <!-- Header Area wrapper Starts -->
-    <header id="header-wrap">
-      <!-- Navbar Start -->
-      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar indigo">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-              <span class="icon-menu"></span>
-              <span class="icon-menu"></span>
-              <span class="icon-menu"></span>
-            </button>
-          
-          </div>
-          <div class="collapse navbar-collapse" id="main-navbar">
-            <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
-              <li class="nav-item active">
-                <a class="nav-link" href="#hero-area">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">
-                  About
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Mobile Menu Start -->
-        <ul class="onepage-nev mobile-menu">
-          <li>
-            <a href="#hero-area">Home</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#resume">Resume</a>
-          </li>
-          <li>
-            <a href="#extra">Milestones</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
-        <!-- Mobile Menu End -->
-      </nav>
-      <!-- Navbar End --> 
+    </nav>
 
-      <!-- Hero Area Start -->
-      <div id="hero-area" class="hero-area-bg">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 text-center">
-              <div class="contents">
-                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">hi this is</h5>
-                <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Smart Invest</h2>
-             
-                </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Hero Area End -->
-
-    </header>
-    <!-- Header Area wrapper End -->
-
-    <!-- About Section Start -->
-    <section id="about" class="section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
-              <img class="img-fluid" src="assets/pic.jpeg" alt="">
-            </div>
-          </div> 
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
-              <h3>Welcome to SmartInvest!</h3><br/>
-              <p>SmartInvest is a cutting-edge financial application built using React Native for the frontend, with a robust backend powered by Node.js, Express.js, MongoDB, and TypeScript. This app provides an innovative way to manage and grow your wealth through its inbuilt currency called SmartCoin.</b></p>
-              <br/>
-            </div>
-          </div>   
-        </div>
-      </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to SmartInvest</h1>
+        <p>We provide top-notch services for your needs</p>
+        <a href="#about" class="cta-button">Learn More</a>
     </section>
-</div>
-    
-    <!-- Go to Top Link -->
-    <a href="#" class="back-to-top">
-      <i class="icon-arrow-up"></i>
-    </a>
- 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.mixitup.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>  
-    <script src="assets/js/nivo-lightbox.js"></script>
-    <script src="assets/js/jquery.slicknav.js"></script>
-    <script src="assets/js/main.js"></script>
 
-    
-   
-    <script src="assets/js/resume.js"></script>
-      
-  </body>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>
+            SmartInvest is a cutting-edge cryptocurrency investment wallet designed to empower users to manage and grow
+            their digital assets with ease and security. With a user-friendly interface, SmartInvest offers seamless
+            access to a wide range of cryptocurrencies, allowing users to buy, sell, and store their investments
+            securely. The platform provides real-time market insights, personalized investment strategies, and advanced
+            security features to protect your assets. Whether you're a seasoned investor or new to the crypto world,
+            SmartInvest is your trusted companion for navigating the ever-evolving landscape of digital currencies.
+            Unlock the potential of your investments with SmartInvest, where your financial future meets innovation.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+
 </html>
