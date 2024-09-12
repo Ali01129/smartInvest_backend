@@ -18,7 +18,7 @@ node --version
 
 ## 4. Clone your project from Github
 ```
-git clone https://github.com/piyushgargdev-01/short-url-nodejs
+git clone https://github.com/Ali01129/repo_name
 ```
 
 ## 5. Install dependencies and test app
